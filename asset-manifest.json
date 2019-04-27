@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/guide/static/css/main.df406781.chunk.css",
+    "main.js": "/guide/static/js/main.890fe516.chunk.js",
+    "main.js.map": "/guide/static/js/main.890fe516.chunk.js.map",
+    "runtime~main.js": "/guide/static/js/runtime~main.4cffee94.js",
+    "runtime~main.js.map": "/guide/static/js/runtime~main.4cffee94.js.map",
+    "static/js/2.36ba3b9c.chunk.js": "/guide/static/js/2.36ba3b9c.chunk.js",
+    "static/js/2.36ba3b9c.chunk.js.map": "/guide/static/js/2.36ba3b9c.chunk.js.map",
+    "index.html": "/guide/index.html",
+    "precache-manifest.f755e36e466e0ec442c73c7173423425.js": "/guide/precache-manifest.f755e36e466e0ec442c73c7173423425.js",
+    "service-worker.js": "/guide/service-worker.js",
+    "static/css/main.df406781.chunk.css.map": "/guide/static/css/main.df406781.chunk.css.map",
+    "static/media/tailwind.css": "/guide/static/media/ProximaNova-Semibold.f14eee64.otf"
+  }
+}
