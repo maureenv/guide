@@ -1,0 +1,234 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+body, h1, h2, h3, h4, div, p {
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale; /* for firefox font */
+}
+
+select, textarea, input[type="text"], input[type="password"],
+input[type="datetime"], input[type="datetime-local"],
+input[type="date"], input[type="month"], input[type="time"],
+input[type="week"], input[type="email"],
+input[type="url"]{
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ appearance: none;
+ border-radius: 0;
+}
+
+/************ FONT FAMILY *************/
+@font-face {
+ font-family: 'ProximaNova-Black';
+ src: url('../fonts/ProximaNova-Black.otf');
+}
+
+@font-face {
+ font-family: 'ProximaNova-Extrabold';
+ src: url('../fonts/ProximaNova-Extrabold.otf');
+}
+
+@font-face {
+ font-family: 'ProximaNova-Semibold';
+ src: url('../fonts/ProximaNova-Semibold.otf');
+}
+
+@font-face {
+ font-family: 'ProximaNova-Bold';
+ src: url('../fonts/ProximaNova-Bold.otf');
+}
+
+@font-face {
+ font-family: 'ProximaNova-BoldIt';
+ src: url('../fonts/ProximaNova-BoldIt.otf');
+}
+
+@font-face {
+ font-family: 'ProximaNova-Regular';
+ src: url('../fonts/ProximaNova-Regular.otf');
+}
+
+@font-face {
+ font-family: 'ProximaNova-RegularItalic';
+ src: url('../fonts/ProximaNova-RegularItalic.otf');
+}
+
+@font-face {
+ font-family: 'ProximaNova-Light';
+ src: url('../fonts/ProximaNova-Light.otf');
+}
+
+@font-face {
+ font-family: 'ProximaNova-LightItalic';
+ src: url('../fonts/ProximaNova-LightItalic.otf');
+}
+
+/************ FONT WEIGHT *************/
+.font-light {
+ font-family: 'ProximaNova-Light';
+}
+
+.font-regular {
+ font-family: 'ProximaNova-Regular';
+}
+
+.font-bold {
+ font-family: 'ProximaNova-Bold';
+}
+
+.font-semibold {
+ font-family: 'ProximaNova-SemiBold';
+}
+
+.font-bold {
+ font-family: 'ProximaNova-Bold';
+}
+
+.font-extrabold {
+ font-family: 'ProximaNova-Extrabold';
+}
+
+
+/************** COLORS ******************/
+.bg-dolphin-blue {
+   background-color: #3d4853;
+ }
+
+.bg-orange {
+  background-color: #fe5f52;
+}
+
+.bg-magenta {
+   background-color: #ee356c;
+ }
+
+.bg-light-gray {
+  background-color: #f4f4f4;
+}
+
+.text-dolphin-blue {
+   color: #3d4853;
+ }
+
+.gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fe5f52+0,ee356c+100 */
+  background: #fe5f52; /* Old browsers */
+  background: -moz-linear-gradient(left, #fe5f52 0%, #ee356c 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #fe5f52 0%,#ee356c 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #fe5f52 0%,#ee356c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe5f52', endColorstr='#ee356c',GradientType=1 ); /* IE6-9 */
+}
+
+/***************** CUSTOM WIDTH **********/
+.w-100 {
+  width: 100px;
+}
+
+.w-250 {
+  width: 250px;
+}
+
+.w-750 {
+  width: 750px;
+}
+
+.min-w-250 {
+  min-width: 250px;
+}
+
+.w-1000 {
+  width: 1000px;
+}
+
+.ml--100 {
+  margin-left: -100px;
+}
+
+.pre-font {
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+}
+
+/*
+
+Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-license.org/
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #23241f;
+}
+
+.hljs,
+.hljs-tag,
+.hljs-subst {
+  color: #f8f8f2;
+}
+
+.hljs-strong,
+.hljs-emphasis {
+  color: #a8a8a2;
+}
+
+.hljs-bullet,
+.hljs-quote,
+.hljs-number,
+.hljs-regexp,
+.hljs-literal,
+.hljs-link {
+  color: #ae81ff;
+}
+
+.hljs-code,
+.hljs-title,
+.hljs-section,
+.hljs-selector-class {
+  color: #a6e22e;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-name,
+.hljs-attr {
+  color: #f92672;
+}
+
+.hljs-symbol,
+.hljs-attribute {
+  color: #66d9ef;
+}
+
+.hljs-params,
+.hljs-class .hljs-title {
+  color: #f8f8f2;
+}
+
+.hljs-string,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-selector-id,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-variable {
+  color: #e6db74;
+}
+
+.hljs-comment,
+.hljs-deletion,
+.hljs-meta {
+  color: #75715e;
+}

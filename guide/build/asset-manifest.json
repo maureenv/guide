@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hungry-style-guide/static/css/main.e23edd17.chunk.css",
+    "main.js": "/hungry-style-guide/static/js/main.25570496.chunk.js",
+    "main.js.map": "/hungry-style-guide/static/js/main.25570496.chunk.js.map",
+    "runtime~main.js": "/hungry-style-guide/static/js/runtime~main.6c9b70d7.js",
+    "runtime~main.js.map": "/hungry-style-guide/static/js/runtime~main.6c9b70d7.js.map",
+    "static/js/2.d00fd6ad.chunk.js": "/hungry-style-guide/static/js/2.d00fd6ad.chunk.js",
+    "static/js/2.d00fd6ad.chunk.js.map": "/hungry-style-guide/static/js/2.d00fd6ad.chunk.js.map",
+    "index.html": "/hungry-style-guide/index.html",
+    "precache-manifest.23fe1563113ce275b257e62b42aa87c7.js": "/hungry-style-guide/precache-manifest.23fe1563113ce275b257e62b42aa87c7.js",
+    "service-worker.js": "/hungry-style-guide/service-worker.js",
+    "static/css/main.e23edd17.chunk.css.map": "/hungry-style-guide/static/css/main.e23edd17.chunk.css.map",
+    "static/media/tailwind.css": "/hungry-style-guide/static/media/ProximaNova-Semibold.f14eee64.otf"
+  }
+}
